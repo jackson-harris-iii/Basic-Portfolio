@@ -38,6 +38,34 @@ li {
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+input{
+	margin-bottom: 15px;
+	width: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 12px 10px;
+	color: #777777;
+	font-size: 85%;
+	font-weight: lighter;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
+
+label {
+	color: #777777;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+button {
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 0;
+	padding: 0px 35px;
+	font-size: 100%; 
+	height: 40px;
+
+}
+
 
 .mainheader {
 	background-color: #ffffff;
@@ -124,7 +152,7 @@ li {
 	padding-left: 50px;
 	padding-right: 20px;
 	width: 650px;
-	height: 500px;
+	height: 620px;
 	margin-left: 50px;
 	display: inline-block;
 	float: left;
@@ -286,3 +314,10 @@ p {
 	background-color: #4aaaa5;
 	font-size: 115%;
 }
+
+#contactmessage {
+	height: 250px;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+
